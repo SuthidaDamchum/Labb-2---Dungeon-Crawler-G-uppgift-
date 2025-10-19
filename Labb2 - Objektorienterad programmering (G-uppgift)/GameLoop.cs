@@ -44,8 +44,8 @@ class GameLoop
                 if (player.DistanceTo(obj) <= 5)
                 {
 
-                    obj.Draw();          // synlig just nu
-                    player.Discover(obj); // spara väggar
+                    obj.Draw();          
+                    player.Discover(obj); //spara väggar
 
 
                 }
